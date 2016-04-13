@@ -1,0 +1,43 @@
+{
+  "name": "react-intl-loader",
+  "version": "1.0.2",
+  "description": "Async react-intl locale data loader for webpack",
+  "keywords": [
+    "async",
+    "lazy",
+    "react",
+    "intl",
+    "react-intl",
+    "locale",
+    "loader",
+    "webpack"
+  ],
+  "author": "Danilo Bürger <info@danilobuerger.de> (http://danilobuerger.de)",
+  "license": "MIT",
+  "homepage": "https://github.com/danilobuerger/react-intl-loader#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danilobuerger/react-intl-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danilobuerger/react-intl-loader/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "loader-utils": "^0.2.14"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0"
+  },
+  "peerDependencies": {
+    "intl": "^1.1.0",
+    "intl-locales-supported": "^1.0.0",
+    "react-intl": "^2.0.1"
+  },
+  "scripts": {
+    "lint": "eslint *.js"
+  }
+}
