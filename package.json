@@ -30,7 +30,8 @@
     "loader-utils": "^0.2.14"
   },
   "devDependencies": {
-    "eslint": "^2.7.0"
+    "check-es3-syntax-cli": "^0.1.2",
+    "eslint": "^3.7.1"
   },
   "peerDependencies": {
     "intl": "^1.1.0",
@@ -38,6 +39,6 @@
     "react-intl": "^2.0.1"
   },
   "scripts": {
-    "lint": "eslint *.js"
+    "lint": "eslint *.js && check-es3-syntax --kill --print *.js"
   }
 }
